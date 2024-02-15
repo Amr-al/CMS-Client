@@ -1,7 +1,11 @@
-import React from 'react'
-import HomeHeader from '@/components/home/HomeHeader'
+import React from "react";
+import HomeHeader from "@/components/home/HomeHeader";
+import BlogSection from "@/components/home/BlogSection";
 export default function page() {
   return (
-    <HomeHeader/>
-  )
+    <>
+      <HomeHeader />
+      <BlogSection />
+    </>
+  );
 }

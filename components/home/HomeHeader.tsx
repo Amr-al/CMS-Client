@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function HomeHeader() {
   return (
-    <div className="container flex flex-wrap justify-between mt-16">
+    <div className="container px-32 flex flex-wrap justify-between mt-16">
       <div className="flex flex-wrap md:flex-col w-[100%] min-[769px]:w-[55%] mt-8">
         <div className="font-serif font-bold text-4xl lg:text-5xl max-[769px]:text-center max-[768px]:m-auto max-[640px]:w-[100%] max-[768px]:w-[60%] md:max-w-[80%] tracking-wide ">
           Read the most interesting articles
@@ -44,7 +44,7 @@ function HomeHeader() {
       </div>
       <div className="w-[45%] hidden min-[769px]:block">
         <Image
-          src={"/images/headerImage.svg"}
+          src={"/images/LiveChat.svg"}
           alt="HomeImage"
           width={100}
           height={100}

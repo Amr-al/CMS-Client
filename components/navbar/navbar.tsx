@@ -6,7 +6,7 @@ import DropMenu from './drop-menu';
 export default function Navbar() {
   return (
     <nav className='py-'>
-      <main className='container px-32 mx-auto flex items-center md:gap-10 gap-6'>
+      <main className='container lg:px-32 mx-auto flex items-center md:gap-10 gap-6'>
         <div className='flex justify-between items-center xl:basis-[90%] md:basis-[80%] basis-[70%]'>
           <Link href={'/'}>
             <Image
